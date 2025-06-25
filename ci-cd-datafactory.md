@@ -21,23 +21,23 @@ The Git integration with Azure DevOps is straightforward and easy to set up. Itâ
 
 #### Step 1: Open Data Factory and Click **Manage**
 
-![gc1](./gc1.png)
+![gc1](./images/datafactory/gc1.png)
 
 #### Step 2: Click Git Configuration
 
-![gc2](./gc2.png)
+![gc2](./images/datafactory/gc2.png)
 
 #### Step 3: Click Configure
 
-![gc3](./gc3.png)
+![gc3](./images/datafactory/gc3.png)
 
 #### Step 4: Configure both repository and Microsoft Entra ID. When done, click **continue**
 
-![gc4](./gc4.png)
+![gc4](./images/datafactory/gc4.png)
 
 #### Step 5: Configure your repository with its corresponding data, have in mind what's been explained about **collaboration** and **publish** branch
 
-![gc5](./gc5.png)
+![gc5](./images/datafactory/gc5.png)
 
 #### Final step: click on **Apply** and that's it!
 
@@ -165,13 +165,13 @@ The logic behind this is: Linked Services have unique values and they are most l
 
 Head to `datafactoryname/ARMTemplateParametersForFactory.json` and copy the name of the artifact you desire
 
-![op1](./op1.png)
+![op1](./images/datafactory/op1.png)
 
 #### Step 2:
 
 Go to the Pipeline and add the corresponding artifact with its corresponding value as shown in the picture
 
-![op2](./op2.png)
+![op2](./images/datafactory/op2.png)
 
 ## Connections
 
